@@ -18,12 +18,23 @@
 
 # 渲染测试
 
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Render.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/new1.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/render2.gif)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Chapter_12.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Chapter_8.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Chapter_9.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Chapter_10.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Chapter_11.png)  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/progress.png)  
 
 # 环境
 .Net Core 2.0   
 
 # 性能
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Render.png)   
 三个苹果图片，525个面，分辨率1600*800，渲染了6分钟，CPU：i7-7700  
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/RayTracing/bin/Debug/netcoreapp2.0/Render.png)   
 一个苹果时，180个面，分辨率400*200，渲染了10秒，CPU：i7-7700  
   
 # 使用方法
