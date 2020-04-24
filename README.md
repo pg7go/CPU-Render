@@ -33,9 +33,9 @@
 
 # 性能
 ![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Render.png)   
-三个苹果图片，525个面，分辨率1600*800，渲染了6分钟，CPU：i7-7700  
+三个苹果图片，525个面，分辨率1600×800，渲染了6分钟，CPU：i7-7700  
 ![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/RayTracing/bin/Debug/netcoreapp2.0/Render.png)   
-一个苹果时，180个面，分辨率400*200，渲染了10秒，CPU：i7-7700  
+一个苹果时，180个面，分辨率400×200，渲染了10秒，CPU：i7-7700  
   
 # 使用方法
 1.渲染一个场景，首先需要一个渲染器（宽度，高度，取样次数（抗锯齿））（这里使用光线追踪渲染管线RayTracingRenderPipeLine）  
