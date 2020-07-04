@@ -37,7 +37,7 @@
 ![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/Render.png)   
    
 ### 一个苹果时，180个面，分辨率400×200，渲染了10秒，CPU：i7-7700  
-![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/RayTracing/bin/Debug/netcoreapp2.0/Render.png)   
+![img](https://raw.githubusercontent.com/pg7go/CPU-Render/master/Screenshots/OneApple.png)   
 
   
 # 使用方法
