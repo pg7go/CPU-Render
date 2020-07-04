@@ -21,7 +21,7 @@ namespace RayTracing
             scattered = new Ray(hit.position, ray.direction);
 
             var textureColor = GetTextureColor(hit.uv);
-            attenuation = Attenuation.Add(albedo * textureColor, 1-transparency, albedo * textureColor);
+            attenuation = Attenuation.Blend(albedo * textureColor, 1-transparency, albedo * textureColor);
             attenuation.forceToDoAnotherPass = true;
             return true;
         }

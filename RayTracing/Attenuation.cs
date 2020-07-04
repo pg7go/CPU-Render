@@ -22,8 +22,11 @@ namespace RayTracing
                 case AttenuationType.Multiply:
                     return color *  other;
 
-                case AttenuationType.Add:
+                case AttenuationType.Blend:
                     return color * blendPercent + (1 - blendPercent) * other* attenuationColor;
+
+                case AttenuationType.Add:
+                    return color + other* attenuationColor;
 
                 case AttenuationType.None:
                     return color;
@@ -46,15 +49,25 @@ namespace RayTracing
         }
 
 
-        public static Attenuation Add(Vector3 color,float percent, Vector3 attenuationColor)
+        public static Attenuation Blend(Vector3 color,float percent, Vector3 attenuationColor)
         {
             var attenuation = new Attenuation();
-            attenuation.attenuationType = AttenuationType.Add;
+            attenuation.attenuationType = AttenuationType.Blend;
             attenuation.color = color;
             attenuation.blendPercent = percent;
             attenuation.attenuationColor = attenuationColor;
             return attenuation;
         }
+
+        public static Attenuation Add(Vector3 color, Vector3 attenuationColor)
+        {
+            var attenuation = new Attenuation();
+            attenuation.attenuationType = AttenuationType.Add;
+            attenuation.attenuationColor = attenuationColor;
+            attenuation.color = color;
+            return attenuation;
+        }
+
 
         public static Attenuation None(Vector3 color)
         {
@@ -69,6 +82,7 @@ namespace RayTracing
     public enum AttenuationType
     {
         Multiply,
+        Blend,
         Add,
         None
     }

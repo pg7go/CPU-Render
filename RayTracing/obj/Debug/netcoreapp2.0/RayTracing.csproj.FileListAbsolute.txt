@@ -3,7 +3,6 @@ C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Debug\netcoreapp2.0\RayT
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Debug\netcoreapp2.0\RayTracing.runtimeconfig.dev.json
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Debug\netcoreapp2.0\RayTracing.dll
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Debug\netcoreapp2.0\RayTracing.pdb
-C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Debug\netcoreapp2.0\RayTracing.csprojAssemblyReference.cache
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Debug\netcoreapp2.0\RayTracing.AssemblyInfoInputs.cache
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Debug\netcoreapp2.0\RayTracing.AssemblyInfo.cs
 C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Debug\netcoreapp2.0\RayTracing.dll

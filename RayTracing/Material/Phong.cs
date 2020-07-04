@@ -14,7 +14,7 @@ namespace RayTracing
         float fuzz;
         //反射程度
         float blendPercent;
-        public AttenuationType attenuationType = AttenuationType.Add;
+        public AttenuationType attenuationType = AttenuationType.Blend;
 
         public Phong(Texture texture,Vector3 albedo, float specularIndex, float glossIndex, float fuzz=1,float blendPercent=0.7f) :base(texture)
         {
@@ -49,12 +49,14 @@ namespace RayTracing
             //环境光 + 光源
             var textureColor = GetTextureColor(hit.uv);
             var allColor= (scene.ambientColor + diffuseColor)* albedo * textureColor + SpecularColor; 
-            attenuation = Attenuation.Add(allColor, blendPercent, albedo * textureColor);
+            attenuation = Attenuation.Blend(allColor, blendPercent, albedo * textureColor);
             attenuation.attenuationType = attenuationType;
 
             //兼容easyPipeline
             if (fuzz == 0 && specularIndex == 1)
                 attenuation.forceToDoAnotherPass = true;
+
+            //attenuation = Attenuation.None(new Vector3(hit.uv.X, hit.uv.Y,0));
 
             return true;//(Vector3.Dot(scattered.direction, hit.normal) > 0);
         }

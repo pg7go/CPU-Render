@@ -16,8 +16,15 @@ namespace RayTracing
 
         public override bool Scatter(Scene scene, Ray ray,HitRecord hit, out Attenuation attenuation, out Ray scattered)
         {
-            scattered = new Ray(hit.position, ray.direction);
+            //skyMat
+            if(hit==null)
+            {
+                attenuation = Attenuation.None(albedo);
+                scattered = null;
+                return true;
+            }
 
+            scattered = new Ray(hit.position, ray.direction);
             var textureColor = GetTextureColor(hit.uv);
             //attenuation = Attenuation.None(new Vector3(hit.uv.X, hit.uv.Y,0));
             attenuation = Attenuation.None(albedo * textureColor);

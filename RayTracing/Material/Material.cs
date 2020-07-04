@@ -12,7 +12,7 @@ namespace RayTracing
         public bool CastShadow(Scene scene, Light light,HitRecord hit)
         {
             Vector3 toLightDir = Vector3.Normalize( light.position- hit.position);
-            if (scene.HitOne(new Ray(hit.position, toLightDir), out HitRecord rec))
+            if (scene.HitOne(new Ray(hit.position, toLightDir), out HitRecord rec,0.001f, (light.position - hit.position).Length()))
                 return true;
             return false;
         }

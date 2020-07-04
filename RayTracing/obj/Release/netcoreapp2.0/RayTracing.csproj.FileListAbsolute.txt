@@ -1,0 +1,10 @@
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Release\netcoreapp2.0\RayTracing.deps.json
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Release\netcoreapp2.0\RayTracing.runtimeconfig.json
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Release\netcoreapp2.0\RayTracing.runtimeconfig.dev.json
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Release\netcoreapp2.0\RayTracing.dll
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\bin\Release\netcoreapp2.0\RayTracing.pdb
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Release\netcoreapp2.0\RayTracing.AssemblyInfoInputs.cache
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Release\netcoreapp2.0\RayTracing.AssemblyInfo.cs
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Release\netcoreapp2.0\RayTracing.dll
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Release\netcoreapp2.0\RayTracing.pdb
+C:\Users\13982\Desktop\RayTracing-master\RayTracing\obj\Release\netcoreapp2.0\RayTracing.csprojAssemblyReference.cache
