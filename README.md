@@ -6,7 +6,8 @@
 - 只靠CPU的离线渲染  
 - 内置两种渲染管线（迭代式光线追踪渲染管线、快速渲染管线）  
 - 内置材质（Phong、Lit、Metal、Transparency、Dielectric、Lambertian）  
-- 内置光线衰减器（叠加、相乘）  
+- 自发光材质（Emission）  
+- 内置光线衰减器（叠加、相乘、混合）  
 - Phong光照模型  
 - 硬阴影生成算法  
 - 支持OBJ格式模型  
